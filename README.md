@@ -18,13 +18,13 @@ Trade reconciliation system with email alerting.
    SMTP_PASSWORD=your-app-password
    ```
 
-   For Gmail: [Get app password](https://support.google.com/a/answer/176600?hl=en)
+   **For Gmail:** [Get app password](https://support.google.com/a/answer/176600?hl=en)
 
-   # 1. Go to https://myaccount.google.com/security
-   # 2. Enable 2-Step Verification
-   # 3. Go to https://myaccount.google.com/apppasswords
-   # 4. Generate an App Password for "Mail"
-   # 5. Use that 16-character password as SMTP_PASSWORD
+   - Go to https://myaccount.google.com/security
+   - Enable 2-Step Verification
+   - Go to https://myaccount.google.com/apppasswords
+   - Generate an App Password for "Mail"
+   - Use that 16-character password as `SMTP_PASSWORD`
 
 3. **Run**
    ```bash
